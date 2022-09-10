@@ -1,0 +1,64 @@
+h2, h3 {
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+span {
+  position: absolute;
+  inset: auto 0 16px 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  font-size: 11px;
+  color: #666;
+  text-align: center;
+}
+span a {
+  color: #222;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  margin: 0;
+  padding-inline: 27px;
+  background-color: hsl(212deg, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+}
+
+.card {
+  max-width: 320px;
+  padding: 16px;
+  border-radius: 20px;
+  background-color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card h2 {
+  margin-top: 18px;
+  font-weight: 700;
+  color: hsl(218deg, 44%, 22%);
+  font-size: 22px;
+  letter-spacing: 0.1px;
+}
+.card h3 {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  padding-inline: 18px;
+  letter-spacing: 0.22px;
+  color: hsl(220deg, 15%, 55%);
+}/*# sourceMappingURL=style.css.map */
