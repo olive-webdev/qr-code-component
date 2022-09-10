@@ -17,7 +17,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - SASS
 - CSS Grid
 - Mobile-first workflow
- viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
